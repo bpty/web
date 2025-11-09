@@ -1,0 +1,22 @@
+{
+  "files.eol": "\n",
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "search.exclude": {
+    ".vscode": true,
+    "**/node_modules": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "json.schemas": [
+    {
+      "fileMatch": ["*tsconfig*.json"],
+      "url": "http://json.schemastore.org/tsconfig"
+    }
+  ]
+}
